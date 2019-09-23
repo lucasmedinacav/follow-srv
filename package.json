@@ -1,0 +1,28 @@
+{
+  "name": "plurer-srv",
+  "version": "1.0.0",
+  "description": "Backend with nodejs for followers application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "test": "./node_modules/.bin/mocha './!(node_modules)/**/*.spec.js'"
+  },
+  "keywords": [
+    "ionic",
+    "follow",
+    "followers"
+  ],
+  "author": "Lucas Medina Cavalcanti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "consign": "0.1.6",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "2.20.8",
+    "mongoose": "4.11.5",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {}
+}
