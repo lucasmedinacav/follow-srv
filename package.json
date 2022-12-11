@@ -19,7 +19,7 @@
     "body-parser": "1.18.2",
     "consign": "0.1.6",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-validator": "2.20.8",
     "mongoose": "4.11.5",
     "nodemon": "^1.19.2"
